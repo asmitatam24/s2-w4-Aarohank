@@ -7,6 +7,7 @@
  */
 
  import java.util.ArrayList;
+ import java.util.Collection;
 public class Simulation {
 
     final static boolean DEBUGGING = false;
@@ -57,7 +58,7 @@ public class Simulation {
                 p2.remember (p1cooperated);
             }
         }   
-        
+
         Collections.sort(players);
         for(Player p: players)
             System.out.println (p);
